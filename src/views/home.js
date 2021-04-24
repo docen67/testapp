@@ -5,7 +5,6 @@ import {
   Text,
   Link,
   VStack,
-  Code,
   Grid,
   theme,
 } from '@chakra-ui/react';
@@ -17,7 +16,7 @@ function App() {
         <Grid minH="100vh" p={3}>
           <VStack spacing={8}>
             <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
+              Home
             </Text>
             <Link
               color="teal.500"
